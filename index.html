@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen y Barra de Menú en Tabla</title>
+</head>
+<body bgcolor="black">
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th style="text-align: center; padding: 10px; background-color: #333; color: white;">
+                    <div style="display: inline-block; text-align: left;">
+                        <img src="imagen/Captura.PNG" alt="Imagen de ejemplo" width="100" style="vertical-align: middle;">
+                    </div>
+                    <div style="display: inline-block; vertical-align: middle;">
+                        <h1 style="margin: 0;">gamer center</h1>
+                    </div>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>
+<table border="1" width="100%" align="center" style="border-collapse: collapse; background-color: white;">
+    <tr>
+        <td align="center" style="background-color: white; color: black; padding: 10px;">
+            <a href="#" style="text-decoration: none; color: black;">Inicio</a>
+        </td>
+        <td align="center" style="background-color: white; color: black; padding: 10px;">
+            <a href="#" style="text-decoration: none; color: black;">Servicios</a>
+        </td>
+        <td align="center" style="background-color: white; color: black; padding: 10px;">
+            <a href="#" style="text-decoration: none; color: black;">Nosotros</a>
+        </td>
+        <td align="center" style="background-color: white; color: black; padding: 10px;">
+            <a href="#" style="text-decoration: none; color: black;">Contacto</a>
+        </td>
+    </tr>
+</table>
+<table border="1" width="100%" height="400px">
+    <tr>
+        <!-- Columna para la imagen -->
+        <td>
+            <marquee behavior="scroll" direction="left">
+                <img src="imagen/1ce3622c1525318fc312d394c2894094.png" alt="Imagen en movimiento" width="400">
+                <img src="imagen/images.jpg" alt="Imagen en movimiento" width="400">
+            </marquee>
+        </td>
+        <!-- Columna para el formulario -->
+        <td style="background-color: #333; color: white; padding: 10px; vertical-align: middle; text-align: center;">
+            <form action="#" method="post" style="display: inline-block; width: 80%;">
+                <label for="name" style="color: white;">Nombre:</label><br>
+                <input type="text" id="name" name="name" required style="width: 100%; padding: 8px;"><br><br>
+
+                <label for="email" style="color: white;">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 8px;"><br><br>
+
+                <label for="message" style="color: white;">Mensaje:</label><br>
+                <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 8px;"></textarea><br><br>
+
+                <button type="submit" style="padding: 10px; background-color: #555; color: white; border: none; cursor: pointer;">Enviar</button>
+            </form>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>         
